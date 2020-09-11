@@ -10,6 +10,9 @@ function createMenuItem(name, cost, category){
     /* Code here */
 }
 
+console.log(createMenuItem('salad', 8, 'lunch'))
+
+111
 /* Task 1b: use your function to create 3 more menu items. You may add any items to the menu that you'd like */
 
 
@@ -24,7 +27,7 @@ and should return a number.
 
 For example, burger.discount("teacher") would return 13.5 and burger.discount("public") would return 16.2*/
 
-
+//need to use AN OBJECT METHOD FUNCTION HERE
 
 ///////////////Reviews (MVP)///////////////////
 
@@ -60,8 +63,10 @@ and should return a string in the format `{name} gave the restaurant a {rating},
 */
 function getReviewByIndex(reviews, index) {
     /* code here */
+    reviews[index].feedback
   }
   
+  console.log(getReviewByIndex(reviews, 1))
 
 /* Task 7: Write a function to get information about the most recent review called `getLastReview`
 
